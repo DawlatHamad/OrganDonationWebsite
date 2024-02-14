@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Organ Donation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <link href="donation.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div id="header">
+      <h1><img src="IMG/hearts.png" alt="logo"><br>Organ Donation</h1>
+      <nav id="navigation">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Information</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="info.html">Info</a></li>
+              <li><a class="dropdown-item" href="process.html">Process</a></li>
+              <li><a class="dropdown-item" href="statistics.html">Statistics</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="signup.html">Sign Up</a></li>
+          <li class="nav-item"><a class="nav-link" href="stories.html">Patient Stories</a></li>
+          <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="questions.html">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <div id="about">
+      <p>Location:<br>Somestreet, Somewhere, MI</p>
+      <p>Hours:<br>Monday to Friday, <time datetime="10:00">10am</time> to <time datetime="16:00">4pm</time></p>
+    </div> 
+    <div id="sign-content">
+      <article>
+        <h2>Lecture</h2>
+        <p>Posted by Gift of Life, <time datetime="2023-06-06">June 06, 2023</time></p>
+        <p>For the next month, this organization will hold <em>weekly</em> meetings. They will go over the process of organ donation and the circumstances that lead to donations. The highlighted topic will feature Circulatory Death! <i><dfn>Circulatory Death</dfn></i> occurs when the heart stops and the person cannot be resuscitated. In Rajab and Singh's article, <cite>Donation After Cardiac Death</cite>, circulatory death is described as <q>Death of DCD donors is declared on the basis of irreversible cardiac arrest rather than irreversible loss of all functions of the entire brain.</q></p>
+        <p>To make reservation to attend the lectures, contact us before <time datetime="2023-08-02">August 02, 2023</time>.</p>
+        <p>dawlathamad@example.com</p>
+        <p>(555)500-0000</p>
+        <small><b><p>Age Restriction: Due to limited amount of seats available we will only allow attendees over the age of 18, please understand</p></b></small>
+      </article>
+      
+      <form>
+        <h4>Please fill out a donor status prior to attending meeting to help gather information on current organ donation matters:</h4>
+        <fieldset class="outer-box">
+          <legend><h4>Status</h4></legend>
+  
+            <fieldset class="inner-box">
+              <legend><h5>Donor Type<em>(Choose one)</em>:</h5></legend>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio1" name="type" value="live">Living Donor
+                <label class="form-check-label" for="radio1"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio2" name="type" value="dead">Deceased Donor
+                <label class="form-check-label" for="radio2"></label>
+              </div>
+            </fieldset>
+ 
+            <fieldset class="inner-box">
+              <legend><h5>Organs <em>(Choose the ones you would like to donate)</em></h5></legend>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="heart" checked>
+                <label class="form-check-label">Heart</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check2" name="option2" value="lungs">
+                <label class="form-check-label">Lungs</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check3" name="option3" value="liver">
+                <label class="form-check-label">Liver</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check4" name="option4" value="kidney">
+                <label class="form-check-label">Kidney</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check5" name="option5" value="pancreas">
+                <label class="form-check-label">Pancreas</label>  
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check6" name="option6" value="eyes">
+                <label class="form-check-label">Pancreas</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="inner-box">
+              <legend><h5>Number</h5></legend>
+              <p>How many organs will you donate: 
+              <select class="form-select custom-width">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+              </select>
+            </fieldset> 
+            <input class="btn btn-primary" type="submit" value="Submit">
+            <input class="btn btn-primary" type="reset" value="Reset">
+        </fieldset>
+      </form>
+      <br>
+    </div>
+  </main>
+
+  <footer>
+    <p>This website holds no real worth, this was created as a final project for CSC 3750.</p>
+    <p>Email:
+      <a href="mailto:gv5450@wayne.edu">gv5450@wayne.edu</a></p>
+    <img class="raccoon" src="IMG/raccoon.gif" alt="Raccoon Image"/>
+    <p><small>All content copyright &copy; 2023, Dawlat Hamad</small></p>
+  </footer>
+</body>
+</html>

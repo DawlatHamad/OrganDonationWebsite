@@ -1,0 +1,257 @@
+@charset "UTF-8";
+body {
+  background-color: powderblue;
+}
+#header {
+  font-size: 30px; 
+  color: midnightblue;
+  margin: auto;
+  margin-top: 0;
+  padding-right: 40px;
+  background-color: rgba(255, 255, 255, .5);
+  text-align: center; 
+}
+#header h1 {
+  font-size: 75px;
+  
+}
+#header img {
+  max-width: 150px;
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+#navigation {
+  font-size: 18px; 
+  text-align: center; 
+  margin-top: -5px;
+}
+#navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+#navigation ul li {
+  display: flex;
+  position: relative; 
+}
+#navigation ul ul {
+  display: none; 
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  min-width: 150px;
+}
+#navigation ul li:hover > ul {
+  display: block; 
+}
+#navigation ul ul li {
+  display: block;
+}
+#navigation ul li a {
+  display: block;
+  border: 1px solid;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: .5em;
+  text-decoration: none;
+  color: #336699;
+  background-color: rgba(255, 255, 255, .5);
+}
+#navigation ul li a:hover {
+  color: #6699CC;
+  background-color: white;
+}
+#index-content {
+  padding: 0 20px;
+}
+#index-content h2 {
+  color: maroon;
+}
+#index-content p {
+  color: navy;
+}
+#info-content {
+  padding: 0 20px;
+}
+#info-content h2 {
+  color: maroon;
+}
+#info-content h3 {
+  color: maroon;
+  font-size: 25px;
+}
+#info-content p, ul, il, dl, dt, dd {
+  color: navy;
+}
+#info-content dt strong {
+  color: darkgreen;
+  font-style: italic;
+}
+#info-content .QTY {
+  font-family: Georgia, Arial, serif;
+  color: green;
+  font-style: italic;
+}
+#process {
+  border: 3px solid maroon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+#process h2{
+  color: navy;
+}
+#process p{
+  color: darkblue;
+}
+#process-content {
+  padding: 0 20px;
+}
+#process-content h2 {
+  color: maroon;
+}
+#stat-content h2 {
+  color: maroon;
+}
+#stat-content {
+  padding: 0 20px;
+}
+#data h3 {
+  color: maroon;
+  font-size: 25px;
+}
+#data p {
+  color: green;
+  text-align: center;
+}
+td, th {
+  border: 1px solid midnightblue;
+  color: navy
+}
+table {
+  border: 1px solid midnightblue;
+}
+#sign-content {
+  padding: 0 20px;
+}
+#sign-content h2 {
+  color: maroon;
+}
+#sign-content p {
+  color: navy;
+}
+form {
+  color: navy;
+  padding: 1em;
+  padding-left: 45px;
+  background-color: rgba(255, 250, 250, .5);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+form h4 {
+  color: black;
+}
+.outer-box {
+  border: 3px solid maroon;
+  border-radius: 10px;
+  padding: 15px;
+}
+.inner-box {
+  border: 1px solid maroon;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.custom-width {
+  width: 80px; 
+}
+#about {
+  color: darkgreen;
+  padding: 0 20px;
+}
+#about p {
+  font-style: italic;
+}
+#story-content {
+  padding: 0 20px;
+}
+#story-content h2 {
+  color: maroon;
+}
+#story-content h3 {
+  color: maroon;
+  font-size: 25px;
+}
+#story-content p {
+  color: navy;
+}
+aside {
+  padding: 1em;
+  padding-left: 45px;
+  background-color: rgb(230, 230, 250);
+  border-radius: 25px;
+}
+aside img {
+  float: left;
+  margin: -1em 1em 1em 0;
+  width: 100px;
+  height: 100px;
+}
+.money::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+aside p {
+  margin-top: 0;
+}
+aside h2 {
+  clear: left;
+  margin: 0 1em 1em 0;
+}
+#resource-content img {
+  width: 150px; 
+  height: auto; 
+  margin-right: 20px;
+}
+#resource-content {
+  padding: 0 20px;
+}
+#resource-content h2 {
+  color: maroon;
+}
+#question-content {
+  padding: 0 20px;
+}
+#question-content h2 {
+  color: maroon;
+}
+#question-content h4 {
+  color: navy;
+}
+#contact-content {
+  padding: 0 20px;
+}
+#contact-content h2 {
+  color: maroon;
+}
+#contact-content p {
+  color: darkgreen;
+}
+footer {
+  text-align: center;
+  padding-top: 20px;
+  color: midnightblue; 
+  font-weight: bold;
+  margin-bottom: 20px;
+  clear: both;
+}
+.raccoon {
+  width: 10%;
+  height: auto;
+}
